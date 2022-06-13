@@ -13,24 +13,41 @@
 </head>
 <body>
     <header>
-        <div class="fondo_negro contraste_negro">
+        <div class="contenedor_1 contraste_negro">
             <span>Grandes ofertas en comederos</span>
-            <nav class="alineacion_izquierda">
+            <nav>
                 <span>Español</span>
                 <span>ARG$</span>
-                
             </nav>
         </div>
-        <div class="fondo_naranja">
-            <span></span>
-            <span>Front</span><span> Cat&Dog</span>
-            <span></span>
+        <div class="contenedor_2">
+            <div class="contenedor_2-logo">
+                <span></span>
+                <span>Front </span>
+                <span></span>
+                <span>Cat&Dog</span>
+            </div>
+            <nav class="contenedor_2-nav">
+                <span href="">Categorias</span>
+                <span href="">Pets</span>
+                <span href="">Nosotros</span>
+                <span href="">Contáctanos</span>
+            </nav>
         </div>
     </header>
     <main>
-        <section class="primer_seccion"></section>
-        <section class="segunda_seccion">
-            <div class="box">
+        <section class="contenedor_3 primer_seccion">
+            <div id="contenedor_3-titulo">
+                <span>¡Es un placer tenerte aquí!</span>
+            </div>
+            <div id="contenedor_3-cuerpo">
+                <span>¡Comederos en descuento!</span>
+                <button id="contenedor_3-boton">COMEDEROS</button>
+            </div>
+            
+        </section>
+        <section class="contenedor_4 segunda_seccion">
+            <div class="contenedor_4-titulo">
                 <span><i class="fa-solid fa-paw-claws"></i></span>
                 <h1>Productos Destacados</h1>
                 <nav>
@@ -43,38 +60,43 @@
                     </ul>
                 </nav>
             </div>
-            <div class="box_2">
-                <img src="/img/churrasquito.png" alt="">
-                <img src="/img/comedero.png" alt="">
-                <img src="img/Huesito.png" alt="">
-                <!-- <table>
-                    <tr>
-                        <td class="churrasquito"></td>
-                        <td class="comederos"></td>
-                        <td class="huesito"></td>
-                    </tr>
-                    
-                </table> -->
+            <div class="contenedor_4-tarjetas">
+                <div id="tarjeta_1">
+                    <span class="letra_tarjeta_titulo">Juguete Churrasquito</span>
+                    <span class="letra_tarjeta_precio">$150</span>
+                </div>
+                <div id="tarjeta_2">
+                    <span class="letra_tarjeta_titulo">Comedero para perro</span>
+                    <span class="letra_tarjeta_precio">$250</span>
+                </div>
+                <div id="tarjeta_3">
+                    <span class="letra_tarjeta_titulo">Juguete Huesito</span>
+                    <span class="letra_tarjeta_precio">$650</span>
+                </div>
             </div>
-            <div class="box_3">
+            <div class="contenedor_4-contacto">
                 <h2> Contáctanos</h2>
                  <ul>
                     <li><div class="contacto">Nombre y Apellido </div></li>
-                    <li><div class="contacto">ingresa tu correo electronico</div></li>
-                    <li><div class="contacto">telefono</div></li>
+                    <li><div class="contacto">Ingresa tu correo electronico</div></li>
+                    <li><div class="contacto">Telefono</div></li>
                 </ul>
+            
+                <div>
+                    <button class="boton1">Resetear</button>
+                    <button class="boton2">Enviar</button>
+                </div>
             </div>
-            <div class="botones">
-                <button class="boton1">Resetear</button>
-                <button class="boton2">Enviar</button>
-            </div>
-
         </section>
     </main>
     <footer>
-        <div>
-
-        </div>
+        <section class="contenedor_5">
+            <span>Suscríbete para más novedades</span>
+            <div class="contenedor_5-suscripcion">
+                <div><span>Ingresá su correro electronico</span></div>
+                <button>Suscribirme</button>
+            </div>
+        </section>
         <div></div>
         <div></div>
     </footer>

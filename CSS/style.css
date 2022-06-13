@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 body{
     width: 1024px;
     height: 1807px;
@@ -12,44 +17,13 @@ li.navegador{
     display: inline;
     padding-inline: 13px;
 }
-.contacto{
-    background-color: #3C2313;
-    size: ;
-    height:40px;
-    width:340px;
-    border-radius: 10px;
-    display: inline;
-    padding-inline:50px;
-    color: #FFFFFF;
-    margin-left: 300px;
-    text-align: left;
-      
-}
+
 .contraste_negro{
     color:#F3F3F3;
     font-weight: 400;
     font-size: 10px;
 }
-.alineacion_izquierda{
-    float: right;
-    padding-inline: 10px;
-}
-.boton1{
-    background-color: #8A8787;
-    color: #FFFFFF;
-    border-radius: 10px;
-    height:34px;
-    width:110px;
-    
-}
-.boton2{
-    background-color: #F0A83E;
-    color: #FFFFFF;
-    border-radius: 10px;
-    height:34px;
-    width:110px;
 
-}
 h1{
     font-size: 40px;
     color: #3C2313;
@@ -58,18 +32,28 @@ h1{
 h2{
     font-size: 25px;
     color: #3C2313;
-    text-align: center;
-    justify-content: center;
-    padding-top: 78px;
-    text-align: center;
 }
-.fondo_negro{
+.contenedor_1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 9px;
     background-color: #222222;
     height: 20px;
 }
-.fondo_naranja{
+.contenedor_2{
+    display: flex;
+    justify-content: space-between;
     background-color: #F0A83E;
     height: 62px,60px;
+}
+.contenedor_2-logo{
+    padding-left: 58px;
+}
+.contenedor_2-nav{
+    justify-content: space-between;
+    padding-right: 40px;
+    color: #FFFFFF;
 }
 .primer_seccion{
     background-image: url("../img/plato_comida_perro.jpg");
@@ -79,40 +63,131 @@ h2{
     height: 409px;
     width: 100%;
 }
+.contenedor_3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 12px;
+}
+#contenedor_3-titulo{
+    height: 54px;
+    width: 365px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+#contenedor_3-cuerpo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 80px;
+}
+#contenedor_3-boton{
+    color: #FFFFFF;
+    width: 141px;
+    height: 49px;
+    background: #F0A83E;
+    border-radius: 5px;
+    border: 3px solid transparent;
+
+}
 .segunda_seccion{
     width: 100%;
-    height: 559px;
+    height: 959px;
     
 }
-.box_2 {
+.contenedor_4-tarjetas {
     display: flex;
     justify-content: space-around;
 }
-.box{
+.contenedor_4-titulo{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-bottom: 20px;
-    text-align: center;
+    
 }
+#tarjeta_1{
+    display: flex;
+    background: url("/img/churrasquito.png");
+    flex-direction: column;
+    width: 265px;
+    height: 312px;
+    justify-content: flex-end;
+    align-items: center;
 
-/* 
-.churrasquito{
-    background-image: url("../img/churrasquito.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+#tarjeta_2{
+    display: flex;
+    background: url("/img/comedero.png" );
+    flex-direction: column;
+    width: 265px;
+    height: 312px;
+    justify-content: flex-end;
+    align-items: center;
+}
+#tarjeta_3{
+    display: flex;
+    background: url("/img/Huesito.png");
+    flex-direction: column;
+    width: 265px;
+    height: 312px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.letra_tarjeta_titulo{
+    color: #3C2313;
+    font-size: 15px;
+}
+.letra_tarjeta_precio{
+    color: #F0A83E;
+    font-size: 15px;
+}
+.contenedor_4-contacto{
+    height: 417px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 15px;
+
+}
+.contacto{
+    font-size: 9px;
+    background-color: #3C2313;
+    height:40px;
+    width:340px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+.boton1{
+    background-color: #8A8787;
+    color: #FFFFFF;
+    border-radius: 15px;
+    height:34px;
+    width:110px;
+    border: 3px solid transparent;
     
 }
-.comederos{
-    background-image: url("../img/comedero.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+.boton2{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    border-radius: 15px;
+    height:34px;
+    width:110px;
+    border: 3px solid transparent;
+
 }
-.huesito{
-    background-image: url("../img/Huesito.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-} */
+.contenedor_5{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor_5-suscripcion{
+    display: flex;
+    justify-content: space-between;
+}
