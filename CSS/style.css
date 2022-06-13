@@ -186,8 +186,40 @@ h2{
 .contenedor_5{
     display: flex;
     justify-content: space-between;
+    height: 60px;
+    background: #F0A83E;
+    color: #FFFFFF;
+    align-items: center;
+    padding-left: 23px;
 }
 .contenedor_5-suscripcion{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-right: 47px;
+    
+    
+}
+#contenedor_mail{
+    display: flex;
+    color: #A0A0A0;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding-right: 5px;
+    align-items: center;
+    height: 40px;
+    width: 271px;
+
+}
+#boton_suscripcion{
+    color: #F3F3F3;
+    font-size: 9px;
+    background:#3C2313;
+    width: 70px;
+    height: 34px;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.letra_blanca{
+    font-size: 20px;
 }
